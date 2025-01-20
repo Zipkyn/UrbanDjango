@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for UrbanDjango project.
 
@@ -22,8 +22,9 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('task2/', include('task2.urls')),
+    path('task3/', include('task3.urls'))
 ]
-=======
+
 """
 URL configuration for UrbanDjango project.
 
@@ -45,6 +46,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path('admin/', admin.site.urls),
+    path('task2/', include('task2.urls')),
+    path('task3/', include('task3.urls'))
 ]
->>>>>>> ed3b1fc8b192886426c5e051897edab4c687525f
