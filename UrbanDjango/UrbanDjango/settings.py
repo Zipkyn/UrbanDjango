@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Django settings for UrbanDjango project.
 
@@ -247,4 +246,3 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
->>>>>>> ed3b1fc8b192886426c5e051897edab4c687525f
